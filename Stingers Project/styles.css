@@ -9,16 +9,23 @@ body#menu {
 }
 body#index {
     background-color: rgba(202, 173, 9, 0.411);
+   
 }
 
-hr {
+hr#indexhr {
     height: 2px;
     background-color:black;
     border-color: yellow;
 }
+hr#hrmenu {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
 .dropdown {
     position:relative;
     display: inline-block;
+    
 }
 
 .dropbtn {
@@ -55,4 +62,45 @@ hr {
 }
 .dropdown:hover .dropbtn {
     background-color: rgb(255, 0, 0);
+}
+
+button#bttntoindex {
+    
+    font-family: courier new;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 12px 24px;
+
+    /*Button cosmetics*/
+    color: none;
+    background-color: none;
+
+    border: 2px solid;
+    border-radius: 60px;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button#bttntoindex:hover {
+    background-color: #0056b3;
+  border-color: #004085;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+button#bttntoindex:active {
+     background-color: #004085;
+  border-color: #003366;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+
+.buttonHolder {
+    text-align: center;
 }
